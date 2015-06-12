@@ -1,20 +1,22 @@
+# History files
+.Rhistory
+
+# Example code in package build process
+*-Ex.R
+
+# R data files from past sessions
+.Rdata
+
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
 
 # Compiled Static libraries
 *.lai
@@ -26,3 +28,23 @@
 *.exe
 *.out
 *.app
+
+# Apple
+.DS_Store
+xcuserdata/
+DerivedData/
+Intermediates/
+Release/
+
+# Useful?
+*.opensdf
+*.xcactivitylog
+*.db
+Cache.db
+*.pcm
+*.d
+*.dat
+*.hmap
+dgph
+*.idx
+*.strings-sym
